@@ -1,0 +1,64 @@
+body {
+  @apply xl-1500:max-w-1536 xl-1500:mx-auto;
+}
+
+.flowers-page-sec {
+  @apply py-12 px-16 
+    max-[360px]:py-8 max-[360px]:px-2
+    max-[478px]:py-12  max-[478px]:px-3 
+    max-md:py-10 max-md:px-4
+    max-lg:px-5;
+}
+.link,
+.span {
+  @apply text-2xl  max-[478px]:text-xl;
+}
+.link {
+  @apply hover:underline;
+}
+.flowers-page-sec h1 {
+  @apply text-4xl mt-5 font-mono 
+     max-[478px]:text-2xl max-md:text-3xl;
+}
+.flowers-page-sec p {
+  @apply text-xl leading-8 mt-4 max-[360px]:text-sm  max-[478px]:text-lg max-md:text-xl;
+}
+.flowers-page-flex {
+  @apply flex justify-between flex-wrap my-20 mx-0 
+    max-[360px]:mx-0 max-[360px]:my-6 max-[360px]:justify-between max-[360px]:flex-wrap
+     max-[478px]:items-center  max-[478px]:justify-center  max-[478px]:gap-4 max-md:justify-between max-md:flex-wrap max-md:items-center max-md:my-0 max-md:mx-auto
+    max-lg:justify-between max-lg:flex-wrap max-lg:items-center max-lg:my-0 max-lg:mx-auto;
+}
+.flowers-page-text {
+  @apply w-[350px] mt-12 mx-0 
+    max-[360px]:w-32 max-[360px]:h-auto   max-[360px]:mt-2
+     max-[478px]:w-40  max-[478px]:max-w-48  max-[478px]:my-1  max-[478px]:mx-0 max-md:w-52 max-md:h-auto 
+    max-lg:w-56 max-lg:my-7 max-lg:mx-0;
+}
+.flowers-page-text :nth-child(1) {
+  @apply rounded-3xl cursor-pointer w-full 
+    max-[360px]:w-full max-[360px]:h-auto
+     max-[478px]:h-auto max-md:h-auto
+    max-lg:h-auto max-lg:w-full;
+}
+.flowers-page-text :nth-child(2) {
+  @apply text-2xl my-5 mx-4  hover:text-gray-600 hover:underline hover:cursor-pointer 
+    max-[360px]:text-sm
+     max-[478px]:text-base max-md:my-0  max-[478px]:mx-1 max-md:text-xl
+    max-lg:text-xl max-lg:my-4 max-lg:mx-1 max-lg:p-0;
+}
+.flowers-page-text :nth-child(3) {
+  @apply text-red-600 font-semibold m-4 
+    max-[360px]:text-sm
+     max-[478px]:text-sm  max-[478px]:m-0 max-md:text-lg
+    max-lg:text-lg max-lg:my-4 max-lg:mx-1 max-lg:p-0;
+}
+.flowers-page-text :nth-child(4) {
+  @apply font-normal text-xl ml-4 hover:text-gray-600 
+    max-[360px]:text-sm
+     max-[478px]:text-base  max-[478px]:my-0  max-[478px]:mx-1 max-md:text-lg
+    max-lg:text-xl max-lg:my-4 max-lg:mx-1 max-lg:p-0;
+}
+.links {
+  @apply max-sm:hidden;
+}
